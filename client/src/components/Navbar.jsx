@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Link, useNavigate } from 'react-router-dom'; // 1. Import useNavigate
 import './Navbar.css';
 import logo from '../assets/smartstudy_logo.png'; // Updated logo path
@@ -33,14 +33,14 @@ function Navbar() {
         {/* 4. Conditional Rendering Logic */}
         {isLoggedIn ? (
           // If logged in, show Profile and Logout
-          <>
+          <React.Fragment>
             <li><Link to="/profile">Profile</Link></li>
             <li>
               <button onClick={handleLogout} className="navbar-logout-btn">
                 Logout
               </button>
             </li>
-          </>
+          </React.Fragment>
         ) : (
           // If not logged in, show Login
           <li><Link to="/login">Login</Link></li>

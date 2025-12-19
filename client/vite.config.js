@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react({ jsxRuntime: 'classic' })],
+  plugins: [react()],
   server: {
     proxy: {
       '/api': {

@@ -1,0 +1,87 @@
+/* Shared Form Styles */
+.manage-courses-container {
+    background: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    border: 1px solid #e5e7eb;
+}
+
+.add-course-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 32px;
+    background: #f8fafc;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    align-items: center;
+}
+
+.add-course-form h3 {
+    width: 100%;
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: #334155;
+    margin-bottom: 8px;
+}
+
+.add-course-form input[type="text"],
+.add-course-form input[type="number"] {
+    padding: 10px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    flex: 1;
+    min-width: 200px;
+}
+
+.add-course-form input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.add-btn {
+    padding: 10px 24px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.add-btn:hover {
+    background: #2563eb;
+    transform: translateY(-1px);
+}
+
+.add-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Cancel Button */
+.cancel-btn {
+    padding: 10px 24px;
+    background: #64748b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.cancel-btn:hover {
+    background: #475569;
+}
+
+.file-label {
+    font-weight: 500;
+    color: #475569;
+    font-size: 0.95rem;
+}

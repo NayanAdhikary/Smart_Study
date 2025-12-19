@@ -1,0 +1,403 @@
+text,label
+"Artificial Intelligence  Important  Questions  
+Basic Concepts and Definitions  
+• What is Artificial Intelligence? How is it different from 
+Machine Learning?  
+• Explain the Turing Test and its significance in AI.  
+• What are the types of AI (Narrow AI, General AI, Super 
+AI)?  
+• Define intelligent agents and their environments.  
+• What are heuristic search techniques? Explain with 
+examples.  
+• What role do search algorithms play in AI?  
+• How does AI handle uncertainty? Discuss 
+probabilistic reasoning.  
+Interview and Frequently Asked Questions  
+• What is overfitting in machine learning? How to 
+prevent it?  
+• Explain supervised, unsupervised, and reinforcement 
+learning.  
+• What are generative adversarial networks (GANs)?  
+• How does transfer learning improve model 
+performance?  
+• Describe handling bias and fairness in AI systems.  
+• What are some applications of AI in real life?  
+• How does NLP work? What are its key applications?   • What is computer vision and how does AI contribute?  
+University Exam and Long Questions  
+• Explain heuristic search techniques with examples.  
+• Write an essay on the different types of AI.  
+• Discuss the architecture of intelligent agents.  
+• Explain machine learning algorithms including 
+decision trees, neural networks.  
+• Describe reinforcement learning and its applications.  
+• Discuss ethical issues in AI and the importance of 
+fairness.  
+• Write on natural language processing and computer 
+vision in AI.  
+• Define Bayesian networks and their use in uncertain 
+knowledge representation.  
+AI and Machine Learning Interview Questions  
+• What is a confusion matrix? How is it used?  
+• Explain gradient descent in simple terms.  
+• What is the difference between parametric and non -
+parametric models?  
+• How do hyperparameters affect model training?  
+• Describe feature selection and its importance.  
+• What is zero -shot and few -shot learning?  
+• How do you optimize deep learning models?   • Describe generative AI evaluation metrics like 
+temperature in models.  
+Multiple Choice Questions and Concepts  
+• What is the full form of AI?  
+• Who is the inventor of Artificial Intelligence?  
+• What is Weak AI?  
+• List the 5 big ideas of AI.  
+• What does a Bayesian network provide?  
+• What is inductive logic programming (ILP)?  
+• What are the types of quantification in AI?  
+• What does the term ""temperature"" control in 
+generative models?",0
+"Data Science Important Question  
+Basic Concepts  
+• What is Data Science? Explain its life cycle.  
+• Difference between Data Science and Data Analytics.  
+• What are the various types of data (structured, semi -structured, unstructured)?  
+• What is data cleaning and why is it important?  
+• Explain feature engineering and feature selection.  
+• What are KPI, lift, model fitting, robustness, and DOE?  
+• Explain the different learning types in machine learning (supervised, unsupervised, 
+reinforcement).  
+Frequently Asked Interview Questions  
+• What is overfitting and how can you prevent it?  
+• What is a confusion matrix? Explain precision, recall, and F1 score.  
+• Describe the role of activation functions in machine learning models.  
+• Explain regularization techniques and why they are necessary.  
+• What is cross -validation and why is it used?  
+• Difference between bagging and boosting algorithms.  
+• What is dimensionality reduction? Explain PCA and t -SNE.  
+• What are classification and regression problems?  
+• Explain cluster analysis and types of clustering algorithms.  
+University Exam Questions  
+• Write and explain a Python program for data manipulation using libraries like Pandas.  
+• Explain descriptive and inferential statistics with examples.  
+• Describe supervised learning algorithms, including decision trees and support vector 
+machines.  
+• Explain the concept of hypothesis testing and p -value.  
+• Discuss exploratory data analysis and its role.  
+• Write note on network analysis and social network analysis.  
+• Describe regression analysis and its types.  
+• Explain centrality and community detection in networks.  
+Long and Conceptual Questions   • Discuss the importance of data preparation and cleaning.  
+• Explain the machine learning pipeline from data gathering to model deployment.  
+• Describe different evaluation metrics for classification problems.  
+• Explain the concept of neural networks and deep learning.  
+• Discuss ethical considerations in data science.  
+• Explain time series analysis and forecasting.  
+• Describe the working and applications of recommender systems.  
+Coding and Practical Questions  
+• How to read and write CSV, Excel files in Python?  
+• Implement and explain confusion matrix calculations.  
+• Write a program for decision tree classification.  
+• Explain random forest algorithm functionality and use cases.  
+• Implement clustering using K -means in Python.",1
+"Java Important  Questions  
+Basic and Conceptual Questions  
+• What are the features of Java?  
+• Explain the structure of a Java program and its execution process  
+• What is JVM, JDK, and JRE? Distinguish between them  
+• Define data types in Java. List all primitive data types  
+• How do you declare variables in Java? Types and scope  
+• What is an operator? List and explain Java operators  
+• Define class and object. How are members declared and accessed?  
+• What are constructors? Explain types and uses  
+Interview and Frequently Asked Questions  
+• Why is Java platform -independent?  
+• Why is Java not a pure object -oriented language?  
+• What is meant by encapsulation, inheritance, polymorphism, and 
+abstraction in Java?  
+• What is the difference between method overloading and overriding?  
+• Explain static keyword —variables, methods, and classes  
+• Can static methods be overridden?  
+• What is the use of the final keyword —class, method, variable  
+• What are Wrapper classes and Scanner class in Java?  
+Long and University Exam Questions  
+• Explain Java architecture with necessary diagram (16 Marks)  
+• Write a Java program to create an Employee class with private fields 
+and public getters/setters (16 Marks)  
+• Discuss vehicle class hierarchy (Vehicle, Truck, Car, Motorcycle), 
+properties, efficiency calculations (16 Marks)   • Explain life cycle and states of a Java thread with diagram (16 Marks)  
+• Write and explain Java programs using inheritance, interfaces, 
+abstract classes, packages, and exception handling  
+• What is an applet? List applet life cycle methods  
+• Discuss event handling in Java; role and components of AWT  
+• Describe JDBC and database handling in Java  
+Coding and Scenario -Based Questions  
+• Program to toggle the characters of a string  
+• Count the occurrence of digits in a number  
+• Print reverse of an array; anagram check; first/last occurrence in 
+array  
+• Write code to implement file streams and handle exceptions  
+Advanced Topics and MCQs (Multiple Choice Questions)  
+• Difference between String, StringBuilder, StringBuffer  
+• Differences between checked, unchecked, and user -defined 
+exceptions  
+• Explain types of inheritance; advantages  
+• What are lambda expressions and functional interfaces?  
+• Describe autoboxing, unboxing, shallow, and deep copy  
+• What is synchronization? Role of synchronized keyword and thread 
+pools  
+• Significance and role of ClassLoader in Java  
+Real-World and Application -Oriented Questions  
+• Explain database connectivity via JDBC, SQL queries, and 
+persistence  
+• Overview and demonstration of web programming with applets   • Describe file handling, error catching, and event -driven GUI 
+programming",0
+"Networking  Important  Questions  
+Basic Networking Concepts  
+• What is a computer network? Define and explain 
+types like LAN, WAN, MAN, PAN.  
+• Explain the OSI and TCP/IP models with layers and 
+functions.  
+• What is IP addressing? Differences between IPv4 and 
+IPv6.  
+• What is subnetting? Why is it used? Explain with 
+example.  
+• Define MAC address and its significance.  
+• Explain different network topologies (bus, star, ring, 
+mesh).  
+• What is latency? What factors affect it?  
+Interview and Frequently Asked Questions  
+• What are different network devices? (Router, switch, 
+gateway, etc.)  
+• Explain DNS and how domain name resolution works.  
+• What is DHCP and how does it function?  
+• Differentiate between TCP and UDP.  
+• What are the types of transmission media? Explain 
+guided and unguided media.  
+• What is NAT (Network Address Translation)?  
+• Explain ARP (Address Resolution Protocol).   • What are VLANs and their purpose?  
+• What is firewall and how does it help secure a 
+network?  
+University Exam Questions  
+• Describe the detailed architecture of TCP/IP and OSI 
+models with diagrams.  
+• Explain the process of subnetting a given IP address 
+range.  
+• Write the differences between TCP and UDP 
+protocols.  
+• What are the different routing algorithms? Explain 
+distance vector and link state routing.  
+• Draw and explain the Ethernet frame structure.  
+• Explain the concepts of data encapsulation and de -
+encapsulation.  
+• Describe the role and function of common protocols 
+like HTTP, FTP, SMTP, and SNMP.  
+• Explain wireless networking standards and 
+technologies.  
+• Describe network security techniques such as 
+encryption, VPN, and IDS/IPS.  
+Long and Scenario -Based Questions  
+• Discuss the advantages and disadvantages of various 
+transmission media.   • Explain how the DNS system works including 
+hierarchy and resolution process.  
+• Explain different types of network attacks and 
+preventive measures.  
+• Describe how TCP establishes a connection (three -
+way handshake).  
+• Write and explain IP packet forwarding process 
+through routers.  
+• Describe the concepts of network address translation 
+and proxy servers.  
+• Explain important network troubleshooting tools and 
+commands (ping, traceroute, nslookup).  
+Advanced Networking Questions  
+• What is Software Defined Networking (SDN)?  
+• Describe Quality of Service (QoS) and its importance.  
+• Explain various wireless security protocols (WEP, 
+WPA, WPA2).  
+• What is MPLS and how does it work?  
+• Explain VPN types and how VPNs secure networks.  
+• Discuss IPv6 benefits and transition mechanisms.",1
+"Python Important  Questions  
+ 
+Basic Concepts in Python  
+• What is Python? Who developed it and when?  
+• What are the key features and benefits of using Python?  
+• What is Python interpreter? How does it work?  
+• What are the main differences between Python 2 and Python 3?  
+• Is Python a compiled or interpreted language? Explain.  
+Frequently Asked Questions  
+• How do you concatenate two lists in Python?  
+• Explain the difference between a list and a tuple.  
+• What is the difference between / and // operators?  
+• How does Python handle errors and exceptions?  
+• What are the built -in data types in Python (with examples: int, float, str, list, dict, set, 
+tuple, bool).  
+Common Interview Questions  
+• How are arguments passed in Python —by value or by reference?  
+• What are *args and **kwargs in function definitions?  
+• What is a lambda function? When would you use one?  
+• What is a docstring? How is it used?  
+• How do you generate random numbers in Python?  
+• What is the difference between deep copy and shallow copy?  
+• Describe data abstraction, encapsulation, inheritance, and polymorphism in Python.  
+Conceptual and Long Questions  
+• Explain Python memory management. How does garbage collection work?  
+• How would you make a Python script executable on Unix?  
+• Discuss the Global Interpreter Lock (GIL) in Python.  
+• What are variable scopes and namespaces in Python?  
+• How do modules and packages work in Python?  
+Coding and Practical Questions  
+• How do you delete a file using Python?   • Write a code to display the current time.  
+• Explain list comprehension and dictionary comprehension with examples.  
+• How do you debug a Python program? Mention pdb and logging.  
+• What is slicing? Provide syntax and some examples.  
+Advanced and Full Stack Development Questions  
+• What is a decorator in Python? Where is it used?  
+• Explain the difference between @classmethod, @staticmethod, and regular instance 
+methods.  
+• How do you manage front -end and back -end in Python full stack development?  
+• How do you handle databases and web APIs in Python?  
+Additional Important Questions  
+• What is the Walrus operator?  
+• What is structural pattern matching (match -case statement)?  
+• How does Python's unit testing framework work?  
+• What are function annotations and exception groups in Python?  
+Best Practices and Design Principles  
+• What are SOLID principles and how are they applied in Python?  
+• How do type hinting and logging improve code quality?  
+• When should you use lists vs. sets vs. dicts?  
+• How can you optimize code for large data processing (e.g., finding first non -repeating 
+character in a 1 GB file)?  
+ 
+ 
+ 
+General and Basic Python Questions  
+• What is Python? Who developed it and when?  
+• List Python’s key features and advantages.  
+• What are the differences between Python 2 and Python 3?  
+• Explain interpreted vs. compiled languages.  
+• What is the scope and lifetime of a variable in Python?  
+• List mutable and immutable types in Python.  
+• What are membership operators? Give examples.   • What are the features of list data structure?  
+• What is the difference between lists and tuples?  
+• How do + and * operators work with strings? Provide examples.  
+Frequently Asked and Conceptual Questions  
+• What are built -in data types in Python?  
+• What are arrays vs. lists in Python?  
+• What does docstring mean?  
+• What is unit testing and why is it important?  
+• Explain break, continue, and pass statements.  
+• What is the use of self in Python classes?  
+• Explain global, protected, and private attributes in Python.  
+• How are modules and packages used?  
+• What is a constructor? Describe various constructors for type conversion.  
+• What is PEP 8 and why is it important?  
+• What is a dynamically typed language? How does Python achieve dynamic typing?  
+Syntax, Operators, and Functions  
+• How to declare and call functions in Python?  
+• Explain *args and **kwargs with examples.  
+• How does try -except statement work? Example code.  
+• How do you import module attributes in Python scripts?  
+• Summarize various operators, built -in functions, and standard library modules for 
+numeric types.  
+• What is slicing in Python? Give syntax and examples.  
+• Explain the split() and join() string functions.  
+• What is the difference between .py and .pyc files?  
+Advanced Interview Questions  
+• Explain comprehensions (list/dict).  
+• What is a lambda function? Why use it?  
+• What are decorators? Show practical use.  
+• What are negative indexes and their purpose?  
+• Explain iterators and generators in Python.   • Discuss pickling and unpickling.  
+• What is the difference between range and xrange? When to use each?  
+• How can you copy objects (deep vs. shallow)?  
+• What is the Global Interpreter Lock (GIL) in Python?  
+• What is the motivation behind parallelism? How is it achieved?  
+Python Libraries and Modules  
+• What are common Python libraries (numpy, pandas, matplotlib, SQLAlchemy, tkinter, re, 
+os)?  
+• How does Python support regular expressions? Demonstrate core methods.  
+• Briefly explain about other GUI modules in Python (besides Tkinter).  
+Object-Oriented Programming (OOP)  
+• What is inheritance? Give examples.  
+• How will you check if a class is a child of another class?  
+• What is init and finalize used for?  
+• Describe new and override modifiers.  
+• Are access specifiers used in Python? Demonstrate protected/private/public.  
+• How to access parent members in the child class (using Parent name and super())?  
+• How do you create an empty class?  
+• What is Object Relational Mapping (ORM)? Case study using SQLAlchemy.  
+Practical Coding Questions and Examples  
+• How do you delete a file in Python?  
+• Write code to print intersection of two lists (without sets).  
+• Convert seconds to days, hours, and minutes.  
+• Convert height in feet/inches to cm.  
+• Print all prime numbers less than 256.  
+• Interchange first and last characters of a string.  
+• Create and use file objects, methods, and built -in attributes.  
+• Use persistent storage in Python.  
+• Importing modules and attributes.  
+GUI and Web Programming  
+• What is the Tkinter module? How to create Label, Button, Entry, and ListBox widgets?   • Explain geometry managers (pack, grid, place) with examples.  
+• How to build a basic web browser with Tkinter?  
+• Discuss web applications using Python’s CGI module.  
+Database Programming  
+• What is a cursor object? List its methods and attributes.  
+• Show database connectivity and insert/query data using DB -API (example code).  
+• Create a Product Table with ORM (SQLAlchemy); insert/select data.  
+• Write queries for an Item table (display, filter, delete, etc.).  
+• List functions to retrieve rows from a table.  
+Multithreading and Parallelism  
+• What is multithreading? How to achieve it?  
+• When should multithreading be used in Python?  
+• Discuss synchronization and the GIL.  
+• Compare processes versus threads.  
+• Discuss Thread and Threading modules: starting new threads, synchronization, 
+examples.  
+Miscellaneous and Applied Questions  
+• State four popular application domains for Python.  
+• Explain basic file handling (open, read, seek, tell).  
+• Give overview and demonstration of building web applications with CGI module.  
+• Describe SQL commands/DB operations for create/use/drop database.  
+• How can you optimize code for large data processing (e.g., non -repeating character in 
+large file)?  
+• What is debugging in Python? Mention pdb and lo gging.",0
+"Software Engineering using UML  Important Question  
+Basic and Conceptual Questions  
+• What is UML? What are its primary goals?  
+• Who manages the UML standard and what  is its main purpose?  
+• What are the different types of UML  diagrams?  
+• Explain Use Case Diagram and its importance  in software engineering.  
+• Define Class Diagram and Object Diagram. How do they  differ?  
+• What is a Sequence Diagram? Describe  its elements  like lifelines and  messages.  
+• Explain Activity Diagram and State  Diagram with  examples.  
+• What are Component and Deployment diagrams?  
+• What is the difference between Association, Aggregation, and  Composition in  UML?  
+• Define Generalization and Realization  relationships.  
+• What is a stereotype and a profile  in UML?  
+• What is an interface and abstract class  in UML context?  
+Interview Questions  
+• Explain the structure and uses of Use  Case, Class, and  Sequence diagrams.  
+• How do you represent one -to-many relationships in UML diagrams?  
+• What is a Collaboration Diagram and  how does it differ  from Communication  Diagram?  
+• Explain the concept of lifelines in  Sequence Diagrams.  
+• Describe how state transitions are  modeled in State  Diagrams.  
+• How do UML diagrams assist in software  development lifecycle?  
+• How do you model complex business processes  using UML diagrams?  
+• What is an Interaction Overview Diagram  and Timing Diagram?  
+University Exam and Long Questions  
+• Draw and explain a Class Diagram for  a given problem  domain such as  a library system.  
+• Develop a Sequence Diagram for an online  shopping process.  
+• Create an Activity Diagram for ATM  withdrawal process.  
+• Draw a State Chart Diagram for an online  grading system.  
+• Design a Deployment Diagram for a web  application specifying  nodes and artifacts.  
+• Write notes on the application of UML  in requirement  analysis and  system design.  
+• Explain the use of Object Diagrams  in modeling system  snapshots.   • Discuss the significance of UML in  object-oriented analysis and design.  
+Frequently Asked Questions and MCQs  
+• Which UML diagrams show static structure  and which show  behavior?  
+• What is the significance of the «interface» stereotype?  
+• How does UML help in communication  among stakeholders?  
+• What is the purpose of package diagrams?  
+• Describe the difference between dynamic  and static UML  diagrams.  
+• What are the basic building blocks  of UML?  
+• What are common mistakes to avoid when  modeling with  UML?",1

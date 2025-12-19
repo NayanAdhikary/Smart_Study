@@ -1,0 +1,78 @@
+/* Global Vars for Theme */
+:root {
+    --admin-bg: #f3f4f6;
+    --sidebar-bg: #1e293b;
+    --sidebar-text: #e2e8f0;
+    --sidebar-hover: #334155;
+    --primary-color: #3b82f6;
+    --danger-color: #ef4444;
+    --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.admin-container {
+    display: flex;
+    min-height: 100vh;
+    /* Changed from height to min-height for better scrolling behavior */
+    background: var(--admin-bg);
+    font-family: var(--font-family);
+}
+
+.content {
+    flex: 1;
+    padding: 32px;
+    /* Added margin to prevent overlap with fixed sidebar */
+    margin-left: 260px;
+    /* Removed overflow-y: auto because the window should scroll, not just this div, usually better for UX unless we want split scrolling */
+    /* If we want the sidebar fixed and content scrolling, using window scroll is often smoother than inner scroll. */
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.content h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #374151;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    background: white;
+    padding: 16px 24px;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+}
+
+.topbar h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background: var(--danger-color);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.logout-btn:hover {
+    background: #dc2626;
+    transform: translateY(-1px);
+}

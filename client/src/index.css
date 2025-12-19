@@ -1,0 +1,68 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  /* --- "CYBER GLOW" PALETTE --- */
+  --primary-accent: #00F2DE;
+  --secondary-accent: #E040FB;
+  --user-accent: #3687FF;
+  --glass-bg: rgba(17, 24, 39, 0.7);
+  --text-light: #f0f0f0;
+  --text-muted: #a0a0b0;
+  --text-dark: #212529;
+
+  /* --- BOOTSTRAP OVERRIDES --- */
+  --bs-primary: var(--primary-accent);
+  --bs-secondary: #6c757d;
+  --bs-success: var(--primary-accent);
+  --bs-info: var(--user-accent);
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: var(--text-light);
+  --bs-dark: var(--text-dark);
+  --bs-body-color: var(--text-light);
+  --bs-font-sans-serif: 'Poppins', sans-serif;
+}
+
+/* --- ANIMATED BACKGROUND --- */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-light);
+  
+  background: linear-gradient(
+    -45deg, 
+    #0d1b2a, 
+    #1b263b, 
+    #415a77, 
+    #778da9
+  );
+  
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  min-height: 100vh;
+  /* padding-top: 80px; */
+  /* REMOVED padding-top: 80px; */
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Global text selection color */
+::selection {
+  background-color: var(--primary-accent);
+  color: var(--text-dark);
+}
+
+/* Prevents text cursor on non-interactive elements */
+h1, h2, h3, h4, h5, h6, p, label {
+  user-select: none;
+}

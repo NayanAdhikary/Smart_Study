@@ -1,0 +1,108 @@
+/* src/pages/AuthPage.css */
+.auth-page-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.auth-form-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px;
+  text-align: center;
+  
+  /* The Glass Effect */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.auth-form h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 0 10px 0;
+}
+
+.auth-form p {
+  color: var(--light-text-color);
+  margin-bottom: 30px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--light-text-color);
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent-color);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.auth-button:hover {
+  background-color: #1aa882;
+}
+
+.toggle-text {
+  margin-top: 25px;
+  color: var(--light-text-color);
+}
+
+.toggle-text span {
+  font-weight: 600;
+  color: var(--accent-color);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.toggle-text span:hover {
+  text-decoration: underline;
+}
+
+.back-to-home {
+  margin-top: 20px;
+}
+
+.back-to-home a {
+  color: var(--light-text-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.back-to-home a:hover {
+  color: var(--accent-color);
+}

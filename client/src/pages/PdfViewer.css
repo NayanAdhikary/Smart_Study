@@ -1,0 +1,122 @@
+/* PDF Viewer styles */
+.react-pdf__Document {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.react-pdf__Page {
+    max-width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    margin: 1em;
+}
+
+.react-pdf__Page canvas {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/* Text layer styles */
+.react-pdf__Page__textContent {
+    border: 1px solid darkgrey;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    user-select: text;
+}
+
+.react-pdf__Page__textContent span {
+    opacity: 0.2;
+    color: transparent;
+    user-select: text;
+}
+
+/* Annotation layer styles */
+.react-pdf__Page__annotations {
+    padding: 20px;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* PDF Viewer Modal */
+.pdf-viewer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.pdf-viewer-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90vh;
+    overflow: auto;
+    position: relative;
+}
+
+.pdf-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.pdf-document-wrapper {
+    margin-top: 40px;
+}
+
+.pdf-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.pdf-navigation button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 16px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pdf-navigation button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.pdf-loading {
+    text-align: center;
+    padding: 20px;
+}
+
+.pdf-error {
+    color: red;
+    text-align: center;
+    padding: 20px;
+}

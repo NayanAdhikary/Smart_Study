@@ -1,0 +1,137 @@
+/* src/components/Navbar.css */
+
+/* Animation for the navbar to slide in */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 80px;
+  box-sizing: border-box;
+  z-index: 1000;
+  background: rgba(13, 20, 35, 0.85);
+  /* Deep frosted glass */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  /* Ambient depth */
+  animation: slideDown 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+  user-select: none;
+}
+
+/* Gradient Border for Navbar */
+.navbar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg,
+      transparent 0%,
+      var(--primary-accent) 20%,
+      var(--secondary-accent) 50%,
+      var(--primary-accent) 80%,
+      transparent 100%);
+  opacity: 0.7;
+}
+
+/* --- Styles for the Logo --- */
+.navbar-brand a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  height: 36px;
+  width: 36px;
+  color: var(--primary-accent);
+  filter: drop-shadow(0 0 10px rgba(0, 242, 222, 0.5));
+  transition: all 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px var(--primary-accent, rgba(0, 242, 222, 1)));
+}
+
+
+/* --- Styles for the Navigation Links --- */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  /* Increased gap (margin between links) */
+  margin: 0;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: var(--text-light);
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover effect for links */
+.navbar-links a::before {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: var(--primary-accent);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar-links a:hover::before {
+  width: 80%;
+}
+
+.navbar-links a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px rgba(0, 242, 222, 0.4);
+}
+
+/* Specific styling for Logout button to look like a link but maybe a bit different? 
+   Actually, let's make it consistent or give it a outlined buttons style */
+.navbar-logout-btn {
+  background: transparent;
+  border: 1px solid var(--secondary-accent);
+  color: var(--secondary-accent);
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar-logout-btn:hover {
+  background: var(--secondary-accent);
+  color: white;
+  box-shadow: 0 0 15px rgba(224, 64, 251, 0.4);
+}

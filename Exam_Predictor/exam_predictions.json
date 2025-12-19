@@ -1,0 +1,244 @@
+{
+  "high_probability": [
+    {
+      "topic": "probability",
+      "probability_score": 1.0,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "distribution",
+      "probability_score": 0.38095238095238093,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "mean",
+      "probability_score": 0.38095238095238093,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "regression",
+      "probability_score": 0.23809523809523808,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "standard deviation",
+      "probability_score": 0.23809523809523808,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "median",
+      "probability_score": 0.19047619047619047,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "sample",
+      "probability_score": 0.19047619047619047,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "clustering",
+      "probability_score": 0.14285714285714285,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "binomial",
+      "probability_score": 0.14285714285714285,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "variance",
+      "probability_score": 0.14285714285714285,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "centroid",
+      "probability_score": 0.09523809523809523,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "euclidean",
+      "probability_score": 0.09523809523809523,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "proximity",
+      "probability_score": 0.09523809523809523,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "decision tree",
+      "probability_score": 0.09523809523809523,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "k-NN",
+      "probability_score": 0.09523809523809523,
+      "recommended_questions": 2
+    },
+    {
+      "topic": "mode",
+      "probability_score": 0.09523809523809523,
+      "recommended_questions": 2
+    }
+  ],
+  "medium_probability": [
+    {
+      "topic": "hypothesis",
+      "probability_score": 0.09523809523809523,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "correlation",
+      "probability_score": 0.09523809523809523,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "classification",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "learning",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "outlier",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "k-means",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "cluster",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "minkowski",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "distance metric",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "entropy",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 1
+    },
+    {
+      "topic": "lazy learner",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 1
+    }
+  ],
+  "low_probability": [
+    {
+      "topic": "null hypothesis",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "p-value",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "significance",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "test",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "sampling",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "pearson",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "dependency",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "relationship",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "precision",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "recall",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    },
+    {
+      "topic": "sensitivity",
+      "probability_score": 0.047619047619047616,
+      "recommended_questions": 0
+    }
+  ],
+  "topic_analysis": {},
+  "question_patterns": {},
+  "recommendations": [
+    {
+      "priority": "CRITICAL",
+      "action": "Focus Study",
+      "topics": [
+        "probability",
+        "distribution",
+        "mean",
+        "regression",
+        "standard deviation"
+      ],
+      "reason": "These topics appear most frequently in previous papers"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Prepare Additional Practice",
+      "topics": [
+        "hypothesis",
+        "correlation",
+        "classification"
+      ],
+      "reason": "Moderately important topics - may be combined questions"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Practice Numerical Problems",
+      "topics": [
+        "mean",
+        "standard deviation",
+        "probability"
+      ],
+      "reason": "Calculations commonly asked in Group B & C"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Theory Revision",
+      "topics": [
+        "definitions",
+        "algorithms",
+        "concepts"
+      ],
+      "reason": "Definitions commonly asked in Group A"
+    }
+  ]
+}

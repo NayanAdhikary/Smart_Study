@@ -1,9 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react({ jsxRuntime: 'classic' })],
+  plugins: [react()],
   server: {
     proxy: {
       '/api': {
@@ -13,12 +13,13 @@ export default defineConfig({
       },
     },
   },
-  optimizeDeps: {
-    include: ['react-pdf', 'pdfjs-dist']
-  },
   build: {
-    commonjsOptions: {
-      include: [/react-pdf/, /pdfjs-dist/]
+    outDir: 'dist',
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      }
     }
-  }
+  },
 })

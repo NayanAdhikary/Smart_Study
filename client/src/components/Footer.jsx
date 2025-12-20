@@ -1,7 +1,8 @@
 // src/components/Footer.jsx
-import React from 'react';
+import * as React from 'react';
 import './Footer.css';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { API_ENDPOINTS } from '../config/api';
 
 function Footer() {
   const [email, setEmail] = React.useState('');
@@ -11,7 +12,7 @@ function Footer() {
   const handleSubscribe = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/subscribe', {
+      const response = await fetch(API_ENDPOINTS.SUBSCRIBE, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -74,20 +75,20 @@ function Footer() {
           <h4>Stay Updated</h4>
           <p>Get the latest notes and predictions delivered to your inbox.</p>
           <form className="subscribe-form" onSubmit={handleSubscribe}>
-            <input 
-              type="email" 
-              placeholder="Enter your email" 
-              required 
+            <input
+              type="email"
+              placeholder="Enter your email"
+              required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <button type="submit">Subscribe</button>
           </form>
           {message && (
-            <p style={{ 
-              marginTop: '10px', 
-              fontSize: '0.9rem', 
-              color: isError ? '#ff6b6b' : '#4ecdc4' 
+            <p style={{
+              marginTop: '10px',
+              fontSize: '0.9rem',
+              color: isError ? '#ff6b6b' : '#4ecdc4'
             }}>
               {message}
             </p>

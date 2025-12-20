@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 import { FaPaperPlane, FaRobot } from 'react-icons/fa'; // Fallback icon
 import logo from '../assets/study-ai-logo.svg';
+import { API_ENDPOINTS } from '../config/api';
 import './PredictorPage.css';
 
 function PredictorPage() {
@@ -40,7 +41,7 @@ function PredictorPage() {
 
       await delay(800);
 
-      const response = await fetch('http://localhost:5000/api/predict', {
+      const response = await fetch(API_ENDPOINTS.PREDICT, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: userInput })

@@ -1,6 +1,7 @@
 // src/pages/AuthPage.jsx
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { API_ENDPOINTS } from '../config/api';
 import './AuthPage.css';
 
 function AuthPage() {
@@ -31,11 +32,7 @@ function AuthPage() {
     setIsLoading(true);
     setError('');
 
-    // Define your backend API endpoints
-    const loginUrl = 'http://localhost:5000/api/users/login'; // Correct backend URL
-    const registerUrl = 'http://localhost:5000/api/users/register'; // Ensure this is your correct registration URL
-
-    const url = isLogin ? loginUrl : registerUrl;
+    const url = isLogin ? API_ENDPOINTS.LOGIN : API_ENDPOINTS.REGISTER;
 
     // Prepare the data to send (use 'username' for registration)
     const userData = isLogin
@@ -56,7 +53,7 @@ function AuthPage() {
       if (!response.ok) {
         // Handle 404 specifically for registration if URL might be wrong
         if (response.status === 404 && !isLogin) {
-            throw new Error(`Registration endpoint not found at ${registerUrl}. Check your backend routes.`);
+          throw new Error(`Registration endpoint not found at ${registerUrl}. Check your backend routes.`);
         }
         // Handle other errors from the backend
         throw new Error(data.message || `HTTP error! Status: ${response.status}`);

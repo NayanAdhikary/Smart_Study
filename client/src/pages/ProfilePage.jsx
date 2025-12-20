@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaUserAstronaut, FaEnvelope } from 'react-icons/fa';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
+import { API_ENDPOINTS } from '../config/api';
 import './ProfilePage.css';
 
 function ProfilePage() {
@@ -20,7 +21,7 @@ function ProfilePage() {
       }
 
       try {
-        const response = await fetch('http://localhost:5000/api/users/profile', {
+        const response = await fetch(API_ENDPOINTS.PROFILE, {
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${token}`,
